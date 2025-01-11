@@ -9,5 +9,22 @@
   scroll-behavior: smooth;
 }
 
+:root {
+  @include poppins-regular;
+}
+
+.git-repository-header {
+  background-color: $title-color;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  & a {
+    color: white;
+  }
+  border-bottom: solid 1px;
+}
+
 @import './media';
 
