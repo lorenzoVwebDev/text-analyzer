@@ -77,12 +77,15 @@
         & div { 
           position: absolute;
           background-color: rgb(181, 181, 181);
+          width: 15%;
+          height: 10%;
+          font-size: calc(0.5vw + 0.5vh);
           color: $background-color2;
           top: -15px;
           opacity: 0;
           border: none;
           z-index: 2000 !important;
-          transition: opacity 0.2s;
+          transition: opacity 0.7s;
         }
         &:hover {
           & div {
@@ -97,6 +100,8 @@
         padding-left: calc(0.2vw + 0.2vh);
         padding-right: calc(0.2vw + 0.2vh);
         margin-bottom: calc(0.1vw + 0.1vh);
+        margin-top: calc(0.1vw + 0.1vh);
+        font-size: calc(0.7vw + 0.7vh);
         overflow-y: auto;
         max-height: 80%;
         & div {
