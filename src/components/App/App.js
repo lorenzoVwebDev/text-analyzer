@@ -12,7 +12,7 @@ function App() {
     >
       <GitRepositoryHeader/>
       <div className="text-analyzer-wrapper">
-        <label htmlFor=""></label>
+        <label htmlFor="analyzer"></label>
         <textarea 
           id="analyzer" 
           name="analyzer"
