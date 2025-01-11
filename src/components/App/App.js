@@ -1,5 +1,6 @@
 import { createContext, useState } from 'react';
 import { GitRepositoryHeader } from '../common';
+import TextInformation from '../TextInformation/TextInformation'
 
 export const TextContext = createContext();
 function App() {
@@ -20,6 +21,7 @@ function App() {
           onChange={e => {setText(e.target.value)}}
         >
         </textarea>
+        <TextInformation/>
       </div>
       </TextContext.Provider>
   );
