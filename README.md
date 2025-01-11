@@ -1,6 +1,13 @@
 
 # Text Analyzer
-  Project in development ⚠️
+  A text analyzer that gives the characters and words count as well as offering a character map (how many times a character has been written in the text) 
+
+## Features 
+- [useCallback hook used to save resources by memoizing the function's body](https://github.com/lorenzoVwebDev/text-analyzer/blob/master/src/components/App/App.js)
+- [createContext used to share data among components easily](https://github.com/lorenzoVwebDev/text-analyzer/blob/master/src/components/App/App.js)
+- [usage of useMemo to call the function only when dependencies change](https://github.com/lorenzoVwebDev/text-analyzer/blob/master/src/components/CharacterMap/CharacterMap.js)
+- [itemize function used to extract single character (only letters and numbers) from a text using regex and array ProtoType methods](https://github.com/lorenzoVwebDev/text-analyzer/blob/master/src/components/services/services.js)
+- [useReducer hook used to toggle booleans and display/running components](https://github.com/lorenzoVwebDev/text-analyzer/blob/master/src/components/TextInformation/TextInformation.js)
 ### You can find this project here on my personal portfolio --> [lorenzo-viganego.com](https://www.lorenzo-viganego.com/#portfolio)
 --
 ### Socials
