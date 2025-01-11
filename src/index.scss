@@ -29,17 +29,27 @@
   display: flex;
   flex-direction: column;
   gap: calc(1vw + 1vh);
-  padding-left: calc(1vw + 1vh);
-  padding-right: calc(1vw + 1vh);
+  padding-left: calc(4vw + 4vh);
+  padding-right: calc(4vw + 4vh);
+
+& textarea {
+  padding-left: calc(0.2vw + 0.2vw);
+  border-radius: 10px;
+  @include poppins-light;
+}
+
 & .text-information-wrapper {
-  display: flex;
-  justify-content: left;
-  gap: calc(1vw + 1vh);
-  & button {
-    @include poppins-bold;
-    font-size: calc(0.9vw + 0.9vh);
-    padding-left: calc(0.5vw + 0.5vh);
-    padding-right: calc(0.5vw + 0.5vh);
+
+  & .text-button-wrapper {
+    display: flex;
+    justify-content: left;
+    gap: calc(0.7vw + 0.7vh);
+    & button {
+      @include poppins-bold;
+      font-size: calc(0.9vw + 0.9vh);
+      padding-left: calc(0.5vw + 0.5vh);
+      padding-right: calc(0.5vw + 0.5vh);
+    }
   }
 }
 }
